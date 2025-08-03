@@ -32,6 +32,7 @@ public class InvoiceHandler
      * @see {@linktourl <a href=
      *      "https://docs.langchain4j.dev/tutorials/tools/#tool">https://docs.langchain4j.dev/tutorials/tools/#tool</a>}
      */
+    // @Tool(name = "开具发票助手", value = "根据用户提交的开票信息进行开票")
     @Tool("根据用户提交的开票信息进行开票")
     public String handle(@P("公司名称")
     String companyName, @P("税号")
